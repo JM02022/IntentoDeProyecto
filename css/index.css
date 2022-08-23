@@ -1,7 +1,9 @@
-
+::-webkit-scrollbar {
+    display: none;
+}
 .img{
-    margin-left: 245px;
-    width: 600px;
+    margin-left: 310px;
+    width: 500px;
 }
 .btn1{
     margin-left: 440px;
@@ -21,11 +23,11 @@
 
 @media (max-width: 1199.98px) {
     .img{
-        margin-left: 150px;
+        margin-left: -30px;
         width: 600px;
     }
     .btn1{
-        margin-left: 345px;
+        margin-left: 125px;
     }
     .btn2{
         margin-left: 40px;
