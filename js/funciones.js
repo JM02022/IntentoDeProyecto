@@ -52,7 +52,7 @@ function run() {
 
     }
     else if (
-      resultado.results[0][0].transcript.toLowerCase().trim() == "pon esa mierda de música"
+      resultado.results[0][0].transcript.toLowerCase().trim() == "música"
     ) {
       window.open(
         "https://music.youtube.com/watch?v=cUmSm7-_YhM&list=RDAMVMcUmSm7-_YhM",
