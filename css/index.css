@@ -1,16 +1,15 @@
-.text{
-    text-align: center;
-}
+
 .img{
-    margin-left: 255px;
+    margin-left: 245px;
     width: 600px;
 }
 .btn1{
-    margin-left: 470px;
+    margin-left: 440px;
 }
 .btn2{
     margin-left: 40px;
 }
+
 .btn1:hover{
     background-color: rgb(0, 0, 0);
     color: #fff;
@@ -22,11 +21,11 @@
 
 @media (max-width: 1199.98px) {
     .img{
-        margin-left: 0px;
+        margin-left: 150px;
         width: 600px;
     }
     .btn1{
-        margin-left: 175px;
+        margin-left: 345px;
     }
     .btn2{
         margin-left: 40px;
