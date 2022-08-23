@@ -34,7 +34,7 @@ function run() {
       resultado.results[0][0].transcript.toLowerCase().trim() == "música"
     ) {
       window.open(
-        "https://www.youtube.com/watch?v=MgMD8wxhNsY&ab_channel=JeanPaul",
+        "https://www.youtube.com/watch?v=z6GgrL6a-cc&ab_channel=JulianRosero",
         "_blank"
       );
     } else if (
