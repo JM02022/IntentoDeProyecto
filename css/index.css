@@ -1,0 +1,35 @@
+.text{
+    text-align: center;
+}
+.img{
+    margin-left: 255px;
+    width: 600px;
+}
+.btn1{
+    margin-left: 470px;
+}
+.btn2{
+    margin-left: 40px;
+}
+.btn1:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+}
+.btn2:hover{
+    background-color: rgb(52, 0, 0);
+    color: #fff;
+}
+
+@media (max-width: 1199.98px) {
+    .img{
+        margin-left: 0px;
+        width: 600px;
+    }
+    .btn1{
+        margin-left: 175px;
+    }
+    .btn2{
+        margin-left: 40px;
+    }
+}
+
