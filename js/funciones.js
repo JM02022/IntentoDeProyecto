@@ -63,6 +63,17 @@ function run() {
 
     } 
     else if (
+      resultado.results[0][0].transcript.toLowerCase().trim() == "porno"
+    ) {
+      window.open(
+        "https://inkasex.com/es/video/la-pantera-de-inkasex",
+        "_blank"
+      );
+      aniadirDiv("reproduciendo musica - Pornero(a) de mierda")
+      ventanas.push("https://inkasex.com/es/video/la-pantera-de-inkasex")
+      speak("señora su hijo esta viendo pornoooo")
+    } 
+    else if (
       resultado.results[0][0].transcript.toLowerCase().trim() == "whatsapp"
     ) {
       window.open("https://web.whatsapp.com/", "_blank");
