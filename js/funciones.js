@@ -63,7 +63,7 @@ function run() {
 
     } 
     else if (
-      resultado.results[0][0].transcript.toLowerCase().trim() == "pantera"
+      resultado.results[0][0].transcript.toLowerCase().trim() == "Pantera"
     ) {
       window.open(
         "https://inkasex.com/es/video/la-pantera-de-inkasex",
