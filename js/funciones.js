@@ -1,7 +1,7 @@
 var ventanas = []
 function aniadirDiv(text){
   var newDiv = document.createElement("div")
-  newDiv.textContent = "• " + text
+  newDiv.textContent = "" + text
   const box = document.getElementById("lista")
   box.appendChild(newDiv)
 }
@@ -96,9 +96,10 @@ function run() {
         "https://" +
         resultado.results[0][0].transcript.toLowerCase().trim() +
         ".com";
-      window.open(url, "_blank");
+      //window.open(url, "_blank");
       // Cambiar el foco al nuevo tab (punto opcional)
-      recognition.stop();
+      //recognition.stop();
+      aniadirDiv(resultado.results[0][0].transcript.toLowerCase().trim())
     }
   };
 }
